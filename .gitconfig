@@ -6,5 +6,9 @@
     editor = vim
 
 [alias]
-    p4 = !/usr/bin/git-p4
+    gsummary = !~/bin/git-summary.py
     glog = log --all --pretty='format:%d %Cgreen%h%Creset %an - %s' --graph
+
+[github]
+    user = charz
+
