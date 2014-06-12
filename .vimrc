@@ -9,12 +9,19 @@ Bundle 'gmarik/vundle'
 
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
+"Bundle 'airblade/vim-gitgutter'
+"Bundle 'Townk/vim-autoclose'
+"Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/indent-motion'
 Bundle 'mileszs/ack.vim'
 Bundle 'hrp/EnhancedCommentify'
 Bundle 'greyblake/vim-preview'
 Bundle 'charz/multi-cscope-db'
+Bundle 'mattn/emmet-vim'
+Bundle 'mfukar/robotframework-vim'
+Bundle 'klen/python-mode'
+
 
 set laststatus=2
 set t_Co=256
@@ -35,3 +42,10 @@ set nu
 
 syntax on
 syntax enable
+"set mouse=a
+
+"
+" pyhton-mode
+"
+let g:pymode_rope=1
+
