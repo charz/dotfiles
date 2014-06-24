@@ -111,6 +111,6 @@ if [ -f ~/.prompt ]; then
     . ~/.prompt
 fi
 
-export WORKON_HOME=~/Env
+export WORKON_HOME=$HOME/.VENV
 source /usr/local/bin/virtualenvwrapper.sh
 

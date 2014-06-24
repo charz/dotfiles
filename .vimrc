@@ -2,10 +2,10 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
@@ -19,9 +19,9 @@ Bundle 'hrp/EnhancedCommentify'
 Bundle 'greyblake/vim-preview'
 Bundle 'charz/multi-cscope-db'
 Bundle 'mattn/emmet-vim'
-Bundle 'mfukar/robotframework-vim'
 Bundle 'klen/python-mode'
 
+call vundle#end()
 
 set laststatus=2
 set t_Co=256
